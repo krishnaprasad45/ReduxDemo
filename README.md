@@ -44,8 +44,8 @@ src/
     <h2 style="margin-bottom:8px;">⚙️ Setup Instructions</h2>
     <ol>
       <li><strong>Clone the repo</strong>
-        <pre style="display:inline-block;background:#f1f1f1;padding:8px;border-radius:6px;margin:8px 0;">git clone &lt;your-repo-url&gt;
-cd &lt;your-project-folder&gt;</pre>
+        <pre style="display:inline-block;background:#f1f1f1;padding:8px;border-radius:6px;margin:8px 0;">git clone &lt;https://github.com/krishnaprasad45/ReduxDemo&gt;
+cd &lt;ReduxDemo&gt;</pre>
       </li>
 
   </section>
