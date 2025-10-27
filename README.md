@@ -21,13 +21,7 @@
       </ul>
     </div>
 
-    <div style="flex:1;min-width:260px;background:#fff7ed;padding:14px;border-radius:10px;border:1px solid #fde3bf;">
-      <h3 style="margin-top:0">🧩 Includes</h3>
-      <ul>
-        <li>✅ Counter state management</li>
-        <li>✅ User Profile (update & reset)</li>
-      </ul>
-    </div>
+   
   </section>
 
   <section style="margin-bottom:20px;">
@@ -39,34 +33,21 @@ src/
 ├── components/
 │   ├── Counter.js           # Counter example
 │   ├── UserProfile.js       # User profile update example
-│    
 ├── features/
 │   ├── counterSlice.js
 │   ├── userSlice.js
-│  
 └── App.js
     </pre>
   </section>
 
   <section style="margin-bottom:22px;">
     <h2 style="margin-bottom:8px;">⚙️ Setup Instructions</h2>
-
     <ol>
       <li><strong>Clone the repo</strong>
         <pre style="display:inline-block;background:#f1f1f1;padding:8px;border-radius:6px;margin:8px 0;">git clone &lt;your-repo-url&gt;
 cd &lt;your-project-folder&gt;</pre>
       </li>
 
-      <li><strong>Install dependencies</strong>
-        <pre style="display:inline-block;background:#f1f1f1;padding:8px;border-radius:6px;margin:8px 0;">npm install</pre>
-      </li>
-
-      <li><strong>Run the app</strong>
-        <pre style="display:inline-block;background:#f1f1f1;padding:8px;border-radius:6px;margin:8px 0;">npm start</pre>
-      </li>
-
-      <li>Open your browser: <a href="http://localhost:3000">http://localhost:3000</a></li>
-    </ol>
   </section>
 
   <section style="margin-bottom:20px;">
@@ -84,16 +65,12 @@ cd &lt;your-project-folder&gt;</pre>
     </p>
   </section>
 
- 
   <footer style="margin-top:20px;border-top:1px solid #eee;padding-top:18px;display:flex;justify-content:space-between;align-items:center;">
     <div>
       <strong>Author:</strong> Krishnaprasad C<br />
       <small style="color:#666">Software Engineer / MERN Stack Developer</small>
     </div>
 
-    <div style="text-align:right">
-      <a href="https://github.com/your-username" target="_blank" rel="noopener" style="color:#0366d6;text-decoration:none;">GitHub</a>
-    </div>
   </footer>
 
 </section>
