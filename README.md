@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+<!-- README.md - HTML style -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<section style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; line-height:1.6; color:#222;">
 
-## Available Scripts
+  <header style="display:flex;align-items:center;gap:16px;margin-bottom:20px;">
+    <div style="font-size:40px;">🧠</div>
+    <div>
+      <h1 style="margin:0 0 6px 0;font-size:28px;">Redux Toolkit Demo Project</h1>
+      <p style="margin:0;color:#444;">A simple React + Redux Toolkit demo to learn modern Redux configuration and usage.</p>
+    </div>
+  </header>
 
-In the project directory, you can run:
+  <section style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:24px;">
+    <div style="flex:1;min-width:260px;background:#f7f9fc;padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(12,24,40,0.04);">
+      <h3 style="margin-top:0">🚀 Features</h3>
+      <ul>
+        <li>Redux Toolkit setup for state management</li>
+        <li>React Redux integration</li>
+        <li>Modular slice-based structure (Counter, User)</li>
+        <li>Simple UI without external design libraries</li>
+      </ul>
+    </div>
 
-### `npm start`
+    <div style="flex:1;min-width:260px;background:#fff7ed;padding:14px;border-radius:10px;border:1px solid #fde3bf;">
+      <h3 style="margin-top:0">🧩 Includes</h3>
+      <ul>
+        <li>✅ Counter state management</li>
+        <li>✅ User Profile (update & reset)</li>
+      </ul>
+    </div>
+  </section>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <section style="margin-bottom:20px;">
+    <h2 style="margin-bottom:8px;">🏗️ Project Structure</h2>
+    <pre style="background:#0b1220;color:#dbeafe;padding:12px;border-radius:8px;overflow:auto;">
+src/
+├── app/
+│   └── store.js             # Redux store setup
+├── components/
+│   ├── Counter.js           # Counter example
+│   ├── UserProfile.js       # User profile update example
+│    
+├── features/
+│   ├── counterSlice.js
+│   ├── userSlice.js
+│  
+└── App.js
+    </pre>
+  </section>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <section style="margin-bottom:22px;">
+    <h2 style="margin-bottom:8px;">⚙️ Setup Instructions</h2>
 
-### `npm test`
+    <ol>
+      <li><strong>Clone the repo</strong>
+        <pre style="display:inline-block;background:#f1f1f1;padding:8px;border-radius:6px;margin:8px 0;">git clone &lt;your-repo-url&gt;
+cd &lt;your-project-folder&gt;</pre>
+      </li>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+      <li><strong>Install dependencies</strong>
+        <pre style="display:inline-block;background:#f1f1f1;padding:8px;border-radius:6px;margin:8px 0;">npm install</pre>
+      </li>
 
-### `npm run build`
+      <li><strong>Run the app</strong>
+        <pre style="display:inline-block;background:#f1f1f1;padding:8px;border-radius:6px;margin:8px 0;">npm start</pre>
+      </li>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+      <li>Open your browser: <a href="http://localhost:3000">http://localhost:3000</a></li>
+    </ol>
+  </section>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <section style="margin-bottom:20px;">
+    <h2 style="margin-bottom:8px;">🧩 Technologies Used</h2>
+    <p style="margin:0;">
+      <strong>React 18+</strong> · <strong>@reduxjs/toolkit</strong> · <strong>react-redux</strong>
+    </p>
+  </section>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <section style="margin-bottom:20px;">
+    <h2 style="margin-bottom:8px;">💡 Purpose</h2>
+    <p style="margin:0;color:#444;">
+      This project helps developers quickly learn how to configure and use Redux in a modern way using
+      <code style="background:#f3f4f6;padding:2px 6px;border-radius:4px;">@reduxjs/toolkit</code>. It is a beginner-friendly, working example showing common patterns (slices, store).
+    </p>
+  </section>
 
-### `npm run eject`
+ 
+  <footer style="margin-top:20px;border-top:1px solid #eee;padding-top:18px;display:flex;justify-content:space-between;align-items:center;">
+    <div>
+      <strong>Author:</strong> Krishnaprasad C<br />
+      <small style="color:#666">Software Engineer / MERN Stack Developer</small>
+    </div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    <div style="text-align:right">
+      <a href="https://github.com/your-username" target="_blank" rel="noopener" style="color:#0366d6;text-decoration:none;">GitHub</a>
+    </div>
+  </footer>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</section>
